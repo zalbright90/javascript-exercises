@@ -1,7 +1,6 @@
-const repeatString = function() {
+const repeatString = function(string, number) {
     let firstTest = "hey";
-    let firstOutput = firstTest.repeat(3);
-    return firstOutput
+    return firstTest.repeat(3);
 };
 
 // Do not edit below this line
