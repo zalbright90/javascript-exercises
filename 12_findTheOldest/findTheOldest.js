@@ -8,7 +8,7 @@ const findTheOldest = function(people) {
             currentAge = person.yearOfDeath - person.yearOfBirth;
         } else {
             const currentYear = new Date().getFullYear();
-            currentAge = currentYear = person.yearOfBirth;
+            currentAge = currentYear - person.yearOfBirth;
         }
 
         if(currentAge > maxAge) {
