@@ -4,14 +4,14 @@ const subtract = (a, b) => a - b;
 
 const sum = function sumArray(array) {
   let sum = 0
-  for (let i = 0; i < array.length; i += 1) {
-    sum += array[i]
+  for (let integer = 0; integer < array.length; integer += 1) {
+    sum += array[integer]
   }
   return sum
 };
 
-const multiply = function() {
-
+const multiply = function multiply(numbers){
+  return numbers[0] * numbers[1];
 };
 
 const power = function() {
