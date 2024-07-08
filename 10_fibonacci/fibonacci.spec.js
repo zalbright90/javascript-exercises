@@ -22,7 +22,7 @@ describe('fibonacci', () => {
   test('doesn\'t accept negatives', () => {
     expect(fibonacci(-25)).toBe("OOPS");
   });
-  test.skip('DOES accept strings', () => {
+  test('DOES accept strings', () => {
     expect(fibonacci("0")).toBe(0);
   });
   test.skip('DOES accept strings', () => {

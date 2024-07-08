@@ -1,5 +1,9 @@
 const fibonacci = function(n) {
     
+    if (typeof n === 'string' && !isNaN(n)) {
+        n = parseInt(n, 10);
+      }
+
     if (typeof n !== 'number' || n < 0 || !Number.isInteger(n)){
         return 'OOPS';
     }
