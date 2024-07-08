@@ -19,7 +19,7 @@ describe('fibonacci', () => {
   test('0th fibonacci number is 0', () => {
     expect(fibonacci(0)).toBe(0);
   });
-  test.skip('doesn\'t accept negatives', () => {
+  test('doesn\'t accept negatives', () => {
     expect(fibonacci(-25)).toBe("OOPS");
   });
   test.skip('DOES accept strings', () => {
